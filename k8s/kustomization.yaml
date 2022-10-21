@@ -6,6 +6,6 @@ resources:
 - deployment-gateway.yaml
 - service-gateway.yaml
 - route-gateway.yaml
-- web-deployment.yaml
-- web-service.yaml
-- web-route.yaml
+- deployment-web.yaml
+- service-web.yaml
+- route-web.yaml
