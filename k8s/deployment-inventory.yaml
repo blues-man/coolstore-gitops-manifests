@@ -4,6 +4,11 @@ metadata:
   name: inventory-quarkus
   labels:
     app: inventory-quarkus
+    app.kubernetes.io/component: inventory-quarkus
+    app.kubernetes.io/instance: inventory-quarkus
+    app.kubernetes.io/name: inventory-quarkus
+    app.kubernetes.io/part-of: coolstore
+    app.openshift.io/runtime: quarkus
 spec:
   replicas: 1
   selector:
