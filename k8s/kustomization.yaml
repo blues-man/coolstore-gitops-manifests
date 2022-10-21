@@ -5,7 +5,7 @@ resources:
 - service-catalog.yaml
 - deployment-gateway.yaml
 - service-gateway.yaml
-- route-gateway
+- route-gateway.yaml
 - web-deployment.yaml
 - web-service.yaml
 - web-route.yaml
