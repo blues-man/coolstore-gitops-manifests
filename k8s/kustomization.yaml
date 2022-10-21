@@ -14,5 +14,5 @@ kind: Kustomization
 images:
 - digest: sha256:77a4a05e957474b3acb2fb5ae5d038461e75b2ee2d3ed893e4c54fc362eb9495
   name: quay.io/bluesman/inventory-quarkus
-- digest: sha256:e00c068b323ffa93215745c3e69e363a74353828dcb6794b9cbee89c6d6cf3e8
+- digest: sha256:a1fa8e1e949810082ffc5302d6d3e97895466fd95f0731339b08642469090d08
   name: quay.io/bluesman/web-nodejs
