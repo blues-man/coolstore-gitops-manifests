@@ -12,6 +12,8 @@ resources:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
+- digest: sha256:02cc420acf33cf1ead5eb780adb18914ca8802a4eace1c7ddc6b829f805524cb
+  name: quay.io/bluesman/catalog-spring-boot
 - digest: sha256:77a4a05e957474b3acb2fb5ae5d038461e75b2ee2d3ed893e4c54fc362eb9495
   name: quay.io/bluesman/inventory-quarkus
 - digest: sha256:a1fa8e1e949810082ffc5302d6d3e97895466fd95f0731339b08642469090d08
