@@ -1,0 +1,11 @@
+resources:
+- deployment-inventory.yaml
+- service-inventory.yaml
+- deployment-catalog.yaml
+- service-catalog.yaml
+- deployment-gateway.yaml
+- service-gateway.yaml
+- route-gateway
+- web-deployment.yaml
+- web-service.yaml
+- web-route.yaml
