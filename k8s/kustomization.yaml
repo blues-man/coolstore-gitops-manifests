@@ -9,3 +9,8 @@ resources:
 - deployment-web.yaml
 - service-web.yaml
 - route-web.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- digest: sha256:e00c068b323ffa93215745c3e69e363a74353828dcb6794b9cbee89c6d6cf3e8
+  name: quay.io/bluesman/web-nodejs
