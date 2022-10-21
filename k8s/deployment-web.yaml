@@ -6,8 +6,6 @@ metadata:
     app.openshift.io/route-disabled: 'false'
     app.openshift.io/vcs-ref: ''
     app.openshift.io/vcs-uri: 'https://github.com/modernizing-java-applications-book/web-nodejs.git'
-      [{"from":{"kind":"ImageStreamTag","name":"web-nodejs:latest","namespace":"nvinto-ocm-dev"},"fieldPath":"spec.template.spec.containers[?(@.name==\"web-nodejs\")].image","pause":"false"}]
-    openshift.io/generated-by: OpenShiftWebConsole
   name: web-nodejs
   labels:
     app: web-nodejs
