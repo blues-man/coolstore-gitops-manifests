@@ -20,7 +20,8 @@ spec:
         app: gateway-vertx
     spec:
       containers:
-        - name: quay.io/bluesman/gateway-vertx:latest
+        - name: gateway-vertx
+          image: quay.io/bluesman/gateway-vertx:latest
           ports:
             - containerPort: 8080
               protocol: TCP
