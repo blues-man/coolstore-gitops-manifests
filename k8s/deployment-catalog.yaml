@@ -11,7 +11,7 @@ metadata:
     app.kubernetes.io/instance: catalog-spring-boot
     app.kubernetes.io/name: catalog-spring-boot
     app.kubernetes.io/part-of: coolstore
-    app.openshift.io/runtime: java
+    app.openshift.io/runtime: springboot
 spec:
   replicas: 1
   selector:
