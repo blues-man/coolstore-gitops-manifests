@@ -14,13 +14,13 @@ kind: Kustomization
 images:
 - name: quay.io/bluesman/catalog-spring-boot
   newName: quay-4bn78.apps.rosa-4bn78.yimq.p1.openshiftapps.com/quayadmin/coolstore-catalog-spring
-  newTag: prod-v1.0.0
+  newTag: prod-v1.0.1
 - name: quay.io/bluesman/gateway-vertx
   newName: quay-4bn78.apps.rosa-4bn78.yimq.p1.openshiftapps.com/quayadmin/coolstore-gateway-vertx
-  newTag: prod-v1.0.0
+  newTag: prod-v1.0.1
 - name: quay.io/bluesman/inventory-quarkus
   newName: quay-4bn78.apps.rosa-4bn78.yimq.p1.openshiftapps.com/quayadmin/coolstore-inventory-quarkus
-  newTag: prod-v1.0.0
+  newTag: prod-v1.0.1
 - name: quay.io/bluesman/web-nodejs
   newName: quay-4bn78.apps.rosa-4bn78.yimq.p1.openshiftapps.com/quayadmin/coolstore-webapp-nodejs
-  newTag: prod-v1.0.0
+  newTag: prod-v1.0.1
