@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: k8s
-    repoURL: https://github.com/modernizing-java-applications-book/gitops-manifests
+    repoURL: https://github.com/blues-man/coolstore-gitops-manifests
     targetRevision: main
   syncPolicy:
     automated: {}
