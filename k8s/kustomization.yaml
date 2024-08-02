@@ -12,11 +12,15 @@ resources:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- digest: sha256:02cc420acf33cf1ead5eb780adb18914ca8802a4eace1c7ddc6b829f805524cb
-  name: quay.io/bluesman/catalog-spring-boot
-- digest: sha256:49222a94ac85faee5960247f8ab906b91d57e40f55cf79b022cf9a7d13bacc27
-  name: quay.io/bluesman/gateway-vertx
-- digest: sha256:77a4a05e957474b3acb2fb5ae5d038461e75b2ee2d3ed893e4c54fc362eb9495
-  name: quay.io/bluesman/inventory-quarkus
-- digest: sha256:269badb0659d3e0e525bf645481cc4abbdf08e95a08030e5f1175d58d08eacd4
-  name: quay.io/bluesman/web-nodejs
+- name: quay.io/bluesman/catalog-spring-boot
+  newName: quay-4bn78.apps.rosa-4bn78.yimq.p1.openshiftapps.com/quayadmin/coolstore-catalog-spring
+  newTag: prod-v1.0.1
+- name: quay.io/bluesman/gateway-vertx
+  newName: quay-4bn78.apps.rosa-4bn78.yimq.p1.openshiftapps.com/quayadmin/coolstore-gateway-vertx
+  newTag: prod-v1.0.1
+- name: quay.io/bluesman/inventory-quarkus
+  newName: quay-4bn78.apps.rosa-4bn78.yimq.p1.openshiftapps.com/quayadmin/coolstore-inventory-quarkus
+  newTag: prod-v1.0.1
+- name: quay.io/bluesman/web-nodejs
+  newName: quay-4bn78.apps.rosa-4bn78.yimq.p1.openshiftapps.com/quayadmin/coolstore-webapp-nodejs
+  newTag: prod-v1.0.1
